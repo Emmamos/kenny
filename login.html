@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="style.js">
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login</title>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <img id="image" src="logo.jfif">
+    </div>
+    <div class="col-md-9">
+      <h1 id="h1">
+  Sugar Co-operation Organisation Uganda Limited
+  </h1>
+    </div>
+  </div>
+  </div>
+
+<div id="back" class="container">
+<div class="row">
+  <div class="col-md-4">
+    
+  </div>
+		<div class="col-md-4">
+    <br> <br><br>
+    <form class="form-control" method="POST">
+    <h4 id="h2" class="card-title">Login Here!</h4>
+     <div class="form-group">
+      <select name="Usertype">
+   	<option>Manager</option>
+   	<option>Security Officer</option>
+   </select>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Enter email">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Check me out
+    </label>
+  </div>
+<div class="form-group">
+  <button type="submit" class="btn btn-success">Submit</button> <br>
+</div>
+
+  <div class="form-group">
+  <a class="btn btn-default">Donot have An account?</a>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Sign up
+</button>
+</div>
+<!-- Button trigger modal -->
+
+</form>
+
+<!--modAL for logging in-->
+  </div>
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="had"> Welcome! Signup Please</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       
+       <form class="form-control" method="POST" >
+  <div class="form-group">
+    <input type="text" placeholder="Enter your First Name" name="firstname"><br>
+  </div>
+
+  <div class="form-group">
+    <input type="text" placeholder="Enter Your last name" name="lastname"><br>
+  </div>
+  <div class="form-group">
+    <input type="text" placeholder="Eneter your Department" name="department"><br>
+  </div>
+
+<div class="form-group">
+    <input type="text" placeholder="Enter Your Work ID No." name="idno"><br>
+  </div>
+
+    
+  <div class="form-group">
+    <input type="text" placeholder="Email Address" name="email"><br>
+
+  </div>
+  <div class="form-group">
+     <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+
+</div>
+
+    <div class="form-group">
+    <input type="password" placeholder="Enter password" name="password"><br>
+  </div>
+ <div class="form-group">
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+ 
+</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-success">SUBMIT</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style.js">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<title>Security</title>
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+      <div class="chip">
+  <img src="log.jpg" width="96" height="96">
+</div
+><h1 id="had">Welcome</h1><?php echo $row1['firstname']; ?><?php echo $row1['photo']; ?>
+		</div>
+		<div class="col-md-4">
+
+
+</div>
+<div class="col-md-4"></div>
+  </div>
+</div>
+
+<div id="had" class="card">
+  <div class="card-body">
+    <h3 class="card-title">Please</h3>
+    <h4 class="card-subtitle mb-2 text-muted">Confirm Departing Goods</h4>
+
+  </div>
+</div>
+			<form class="form-control">
+        <!-- Displaying Data Read From Database -->
+<span>Driver's Name:</span> <?php echo $row1['name']; ?> <br>
+<span>Vechile No. Plate:</span> <?php echo $row1['email']; ?> <br>
+<span>Goods:</span> <?php echo $row1['']; ?> <br>
+<span></span> <?php echo $row1['']; ?> <br>
+
+<label>Verify This Information</label>
+<div class="form-group">
+    <input type="text" placeholder="Goods Issued out" name="goods"><br>
+  </div>
+
+<div class="form-group">
+    <input type="text" placeholder="Goods Issued out" name="goods"><br>
+  </div>
+
+<div class="form-group">
+    <textarea placeholder="Reason For goods departure" name="reason"></textarea> <br>
+  </div>
+
+  <div class="form-group">
+<input type="time" placeholder="Time of loading" name="time">
+  </div>
+  <div class="form-group">
+        <button type="reset" class="btn btn-success">SUBMIT</button>
+      </div>
+</form>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

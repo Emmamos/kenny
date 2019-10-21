@@ -1,0 +1,109 @@
+#card {
+    height: 20%;
+    width: cover;
+    float: left;
+}
+#image {
+    border-radius: 50%;
+height: 80px;
+}
+#body {
+    background-image: url('sugar.jpg');
+    opacity: 0.6;
+    height: 100px;
+    padding:0 ;
+    margin: 0;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+#footer {
+    background-color:#15151e;
+    position: bottom;
+
+    }
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+#nav {
+    font-weight: bold;
+    float: ;
+}
+#h2{
+    font-size: 200%;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+#h1{
+    font-size: 200%;
+    text-align: center;
+    color: #40ff00;
+    font-weight: bolder;
+}
+#had{
+    font-size: 220%;
+    text-align: center;
+    color: black;
+}
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 1350px;
+      height: 450px;
+  }
+
+#Order{
+    text-align: center;
+    color:red;
+    font-weight: bolder;
+    text-align: center;
+}
+#logo{
+    border-radius: 50%;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position:  cover;
+    text-align: center;
+}
+#jumb{
+    background-color: #000066;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    opacity:;
+    text-align: center;
+    color: white;
+}
+#back{
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:;
+
+
+}
